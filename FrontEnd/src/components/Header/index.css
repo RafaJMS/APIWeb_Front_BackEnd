@@ -1,0 +1,54 @@
+.header-box{
+    background-image: url("https://www.papeldeparede.etc.br/fotos/wp-content/uploads/bob-esponja--cenario_6103_1024x768.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    gap: 5rem;
+    align-items: center;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.486);
+    overflow-y: hidden;
+}
+
+.titleheader-box{
+    padding-left: 3rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headertype-box{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    width: 65%;
+    font-size: 18px;
+    text-decoration: none;
+    overflow-y: hidden;
+}
+
+.title-header{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.title-img{
+    width: 40px;
+}
+
+a{
+    color: black;
+    transition: all 0.3s;
+    text-decoration: none;
+    padding: 0.7rem;
+}
+a:hover{
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW9pdHJ2bHF0bG9zMWFob2lhNmNucDNiNWVkZzcyNjRqbmx5aXF0aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/amsQ2HhLt07c494Hsa/giphy.gif");
+    border-radius: 1rem;
+    cursor: pointer;
+    transform: scale(1.3);
+}
